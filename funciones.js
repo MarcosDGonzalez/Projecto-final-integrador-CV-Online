@@ -22,7 +22,7 @@
     
   }*/
 
-  document.getElementById('info').onclick = function(){
-    document.getElementById("datos").innerHTML = "mis datos"
+  document.getElementById("informacion").onclick = function(){
+    document.getElementById("datos").innerHTML = "Cuil:20-36069574-4 <br> Estado:Soltero <br> Hijos/as:0 <br> Idiomas:Español nativo, Ingles Bilingue <br> Conocimientos:C#, Java, Python, SQL, OOP, Microsoft Office, Autocad, Mantenimiento y Reparacion de Systemas, Electronica"
   };
   
