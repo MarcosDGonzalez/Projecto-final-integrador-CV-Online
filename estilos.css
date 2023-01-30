@@ -19,7 +19,7 @@ img#foto{
     transition: all 0.5s ease;
 }
 
-.wrapper .sidebar ul li a{
+.wrapper .sidebar ul li a button{
     display: block;
     padding: 13px 30px;
     border-bottom: 1px solid #10558d;
@@ -60,4 +60,12 @@ img#foto{
     height: 100%;
     padding: 20px 0;
     transition: all 0.5s ease;
+}
+
+/*.data p{
+    display: none;
+}*/
+button{
+    background: none;
+    border: none;
 }
