@@ -1,10 +1,14 @@
 
-  //no me permitia referenciar a un archivo json local asi que opte por este metodo
+  /**
+   * no me permitia referenciar a un archivo json local asi que opte por este metodo,
+   * otros metodos rompian onClick.
+  */
   const datosPersonales='{"cuil": "20-36069574-4", "fechaNacimiento": "19/07/1991", "nacionalidad": "Argentino", "estado": "soltero", "hijos": 0, "idiomas": "Español nativo, Ingles Bilingue", "conocimientos": "C#, Java, Python, SQL, OOP, Microsoft Office, Autocad, Mantenimiento y Reparacion de Systemas, Electronica","Particular": "(011)21264807"}';
   const info=JSON.parse(datosPersonales);
   const datosContacto='{"particular": "(011)21264807", "celular": "(+54)1133483172", "email": "marcosdanielgonzal ez11@yahoo.com.ar"}';
   const contact=JSON.parse(datosContacto);
 
+  
   document.getElementById("informacion").onclick = function(){
     document.getElementById("datos").innerHTML = "Cuil:"+info.cuil+"<br> Fecha de Nacimiento:"+ info.fechaNacimiento+" <br> Estado:Soltero"+info.estado+" <br> Hijos/as:"+info.hijos+" <br> Idiomas:"+info.idiomas+" <br> Conocimientos:"+info.conocimientos
   };
