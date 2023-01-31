@@ -1,10 +1,17 @@
 {
-    "cuil": "20-36069574-4",
-    "fechaNacimiento": "19/07/1991",
-    "nacionalidad": "Argentino",
-    "estado": "soltero",
-    "hijos": 0,
-    "idiomas": "Español nativo, Ingles Bilingue",
-    "conocimientos": "C#, Java, Python, SQL, OOP, Microsoft Office, Autocad, Mantenimiento y Reparacion de Systemas, Electronica"
-    
+    "Datos":[
+        {
+        "cuil": "20-36069574-4",
+        "fechaNacimiento": "19/07/1991",
+        "nacionalidad": "Argentino",
+        "estado": "soltero",
+        "hijos": 0,
+        "idiomas": "Español nativo, Ingles Bilingue",
+        "conocimientos": "C#, Java, Python, SQL, OOP, Microsoft Office, Autocad, Mantenimiento y Reparacion de Systemas, Electronica",
+        "particular": "(011)21264807",
+        "celular": "(+54)1133483172", 
+        "email": "marcosdanielgonzal ez11@yahoo.com.ar"
+        }
+    ]
 }
+
