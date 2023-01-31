@@ -10,7 +10,7 @@
 
   
   document.getElementById("informacion").onclick = function(){
-    document.getElementById("datos").innerHTML = "Cuil:"+info.cuil+"<br> Fecha de Nacimiento:"+ info.fechaNacimiento+" <br> Estado:Soltero"+info.estado+" <br> Hijos/as:"+info.hijos+" <br> Idiomas:"+info.idiomas+" <br> Conocimientos:"+info.conocimientos
+    document.getElementById("datos").innerHTML = "Cuil:"+info.cuil+"<br> Fecha de Nacimiento:"+ info.fechaNacimiento+" <br> Nacionalidad:"+info.nacionalidad+" <br> Estado:"+info.estado+" <br> Hijos/as:"+info.hijos+" <br> Idiomas:"+info.idiomas+" <br> Conocimientos:"+info.conocimientos
   };
   document.getElementById("contacto").onclick = function(){
     document.getElementById("datos").innerHTML = "Particular: "+ contact.particular +"<br> Celular: "+ contact.celular +" <br> Email: "+ contact.email +" <br> <a href="+"https://www.linkedin.com/in/marcos-daniel-gonzalez"+">Linkedin</a>"
